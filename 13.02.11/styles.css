@@ -1,0 +1,154 @@
+/* borrowed from makeshift.io :) */
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/BVtM30trf7q_jfqYeHfjtA.woff) format('woff');
+}
+
+/* end borrow */
+
+.header {
+	width: 100%;
+	background-image: url(images/bgheader.png);
+	color: #444;
+	height: 155px;
+	text-align: center;
+	background-repeat: repeat;
+	border-bottom: 1px solid #ccc;
+	letter-spacing: 3px;
+}
+
+.space1 {
+	height: 18.5%;
+}
+
+.space2 {
+	height: 5%;
+}
+
+
+
+a:link {
+	color: #024480;
+	text-decoration: none;
+	}      /* unvisited link */
+a:visited {
+	color: #024480;
+	text-decoration: none;
+	}  /* visited link */
+a:hover {
+	color: #FBC316;
+	}  /* mouse over link */
+a:active {color: white;}
+
+
+
+h1, h2, h3, h4, h5 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+
+
+.explain {
+	text-align: center;
+	
+}
+
+.innerexplain {
+	color: #444;
+	
+	font-size: 14px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin: 14px;
+}
+
+.text {
+	display: inline-block;
+}
+
+
+.attention {
+	width: 100%;
+	background-image: url(images/bgattention3.jpg);
+	background-size: cover; 
+	color: white;
+	height: 15px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	letter-spacing: 3px;
+}
+
+.attention2 {
+	width: 100%;
+	background-image: url(images/bgattention4.jpg);
+	background-size: cover; 
+	color: white;
+	height: 15px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	letter-spacing: 3px;
+}
+
+
+.video {
+	width: 100%;
+	background-image: url(images/bgheader.png);
+	color: #444;
+	height: 550px;
+	text-align: center;
+	background-repeat: repeat;
+	border-bottom: 1px solid #ccc;
+	letter-spacing: 3px;
+}
+
+.videosmall {
+	width: 100%;
+	background-image: url(images/bgheader.png);
+	color: #444;
+	height: 440px;
+	text-align: center;
+	background-repeat: repeat;
+	border-bottom: 1px solid #ccc;
+	letter-spacing: 3px;
+}
+
+@media screen and (max-width: 700px)  
+			{
+			.video { display: none ; }
+			}
+
+@media screen and (min-width: 699px)  
+			{
+			.videosmall { display: none ; }
+			}
+
+
+.btn {
+	width: 350px;
+	border: 1px solid #024480;
+	margin:0 auto;
+	padding: 10px 10px 12px 10px;
+	-moz-border-radius: 200px;
+	border-radius: 200px;
+	
+
+}
